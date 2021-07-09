@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import pokemonData from './mockData/pokemon.json'
+import TableRow from './components/TableRow'
+import TableHead from './components/TableHead';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          What Time Is It?
-        </p>
-        <a
-          className="App-link"
-          href="http://nazirahmed.me"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {new Date().toLocaleDateString()}
-        </a>
-      </header>
+      <div>
+        <h1 className="title">Pokemon Search</h1>
+        <table width="100%">
+          <thead>
+            <TableHead />
+          </thead>
+          <tbody>
+            {pokemonData?.map((pokemon, index) => (
+              <TableRow key={index} pokemon={pokemon} />
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
