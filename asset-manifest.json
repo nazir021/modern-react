@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/modern-react/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/modern-react/static/js/main.daea9fd5.chunk.js",
-    "main.js.map": "/modern-react/static/js/main.daea9fd5.chunk.js.map",
+    "main.js": "/modern-react/static/js/main.1aba7a1c.chunk.js",
+    "main.js.map": "/modern-react/static/js/main.1aba7a1c.chunk.js.map",
     "runtime-main.js": "/modern-react/static/js/runtime-main.5885940e.js",
     "runtime-main.js.map": "/modern-react/static/js/runtime-main.5885940e.js.map",
     "static/js/2.cf7f0894.chunk.js": "/modern-react/static/js/2.cf7f0894.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.5885940e.js",
     "static/js/2.cf7f0894.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.daea9fd5.chunk.js"
+    "static/js/main.1aba7a1c.chunk.js"
   ]
 }
